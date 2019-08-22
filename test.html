@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BT9</title>
+    <title>BT8</title>
 </head>
 <body>
 <form action="" method="post">
-    <h1>HTML Form</h1>
-    <p>
-        Firstname: <input type="text" value="" name="firstname"/>
-    </p>
-    <p>
-        Lastname: <input type="text" value="" name="lastname"/>
-    </p>
-    <p>
-        E-mail: <input type="email" value="" name="email"/>
-    </p>
-    <p>
-        <input type="radio" name="gender" value="1"/>Male <br/>
-        <input type="radio" name="gender" value="2"/>Female <br/>
-    </p>
-    <input type="submit" name="submit" value="Submit"/>
-    <input type="reset" name="reset" value="Reset"/>
+    <b>Simple form with name and age</b>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td>
+                <input type="text" name="name" value="Albert"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td>
+                <input type="text" name="age" value="39"/>
+                <input type="submit" name="submit" value="Add"
+            </td>
+        </tr>
+    </table>
 </form>
+<br/>
+<b>Current data in the system</b>
+<table border="1" cellspacing="2" cellpadding="3">
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>
+            <button>
+                <a href="#">Delete</a>
+            </button>
+        </td>
+        <td>John</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>
+            <button>
+                <a href="#">Delete</a>
+            </button>
+        </td>
+        <td>Mike</td>
+        <td>55</td>
+    </tr>
+    <tr>
+        <td>
+            <button>
+                <a href="#">Delete</a>
+            </button>
+        </td>
+        <td>Albert</td>
+        <td>39</td>
+    </tr>
+</table>
+<br/>
+<button>
+    <a href="#">Click here</a>
+</button>
+to the create a Table and some data using Javascript
 </body>
 </html>
